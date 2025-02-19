@@ -1,0 +1,13 @@
+server:
+  port: 8222
+spring:
+  cloud:
+    gateway:
+      discovery:
+        locator:
+          enabled: true
+#      routes:
+#        - id: logement-service
+#          uri: lb:http://logement-SERVICE
+#          predicates:
+#            - Path=/api/logement/**
