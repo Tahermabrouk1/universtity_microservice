@@ -1,0 +1,12 @@
+tn\esprit\tpfoyer\entity\TypeChambre.class
+tn\esprit\tpfoyer\service\IChambreService.class
+tn\esprit\tpfoyer\repository\ChambreRepository.class
+tn\esprit\tpfoyer\entity\Bloc.class
+tn\esprit\tpfoyer\control\BlocRestController.class
+tn\esprit\tpfoyer\service\ChambreServiceImpl.class
+tn\esprit\tpfoyer\service\IBlocService.class
+tn\esprit\tpfoyer\control\ChambreRestController.class
+tn\esprit\tpfoyer\BlocChambreApplication.class
+tn\esprit\tpfoyer\repository\BlocRepository.class
+tn\esprit\tpfoyer\entity\Chambre.class
+tn\esprit\tpfoyer\service\BlocServiceImpl.class

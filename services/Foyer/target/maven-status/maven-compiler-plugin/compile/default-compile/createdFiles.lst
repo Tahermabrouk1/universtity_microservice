@@ -1,0 +1,10 @@
+tn\esprit\tpfoyer\dto\Bloc.class
+tn\esprit\tpfoyer\FoyerApplication.class
+tn\esprit\tpfoyer\Repository\FoyerRepository.class
+tn\esprit\tpfoyer\control\FoyerRestController.class
+tn\esprit\tpfoyer\dto\Universite.class
+tn\esprit\tpfoyer\entity\Foyer.class
+tn\esprit\tpfoyer\Services\IFoyerService.class
+tn\esprit\tpfoyer\Services\FoyerServiceImpl.class
+tn\esprit\tpfoyer\dto\AssignBlocToFoyerRequest.class
+tn\esprit\tpfoyer\Feign\BlocFoyer.class

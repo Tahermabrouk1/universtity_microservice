@@ -1,0 +1,10 @@
+C:\Users\medta\IdeaProjects\university-micro\services\Foyer\src\main\java\tn\esprit\tpfoyer\Feign\BlocFoyer.java
+C:\Users\medta\IdeaProjects\university-micro\services\Foyer\src\main\java\tn\esprit\tpfoyer\Controller\FoyerRestController.java
+C:\Users\medta\IdeaProjects\university-micro\services\Foyer\src\main\java\tn\esprit\tpfoyer\Repository\FoyerRepository.java
+C:\Users\medta\IdeaProjects\university-micro\services\Foyer\src\main\java\tn\esprit\tpfoyer\Services\FoyerServiceImpl.java
+C:\Users\medta\IdeaProjects\university-micro\services\Foyer\src\main\java\tn\esprit\tpfoyer\entity\Foyer.java
+C:\Users\medta\IdeaProjects\university-micro\services\Foyer\src\main\java\tn\esprit\tpfoyer\dto\AssignBlocToFoyerRequest.java
+C:\Users\medta\IdeaProjects\university-micro\services\Foyer\src\main\java\tn\esprit\tpfoyer\dto\Bloc.java
+C:\Users\medta\IdeaProjects\university-micro\services\Foyer\src\main\java\tn\esprit\tpfoyer\dto\Universite.java
+C:\Users\medta\IdeaProjects\university-micro\services\Foyer\src\main\java\tn\esprit\tpfoyer\FoyerApplication.java
+C:\Users\medta\IdeaProjects\university-micro\services\Foyer\src\main\java\tn\esprit\tpfoyer\Services\IFoyerService.java

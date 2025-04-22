@@ -1,6 +1,7 @@
 eureka:
   instance:
     hostname: discovery-service
+    prefer-ip-address: true
   client:
     serviceUrl:
       defaultZone: http://discovery-service:8761/eureka/
@@ -8,3 +9,4 @@ spring:
   cloud:
     config:
       override-system-properties: false
+

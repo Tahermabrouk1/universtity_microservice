@@ -1,0 +1,24 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+    compatibility-verifier:
+      enabled: false
+  datasource:
+    url: jdbc:mysql://mysql:3306/blocChambre_db?createDatabaseIfNotExist=true
+    username: univer
+    password: univer
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8084
+  servlet:
+    context-path: /
+logging:
+  level:
+    root: INFO
+    tn.esprit.tpfoyer: DEBUG
+
+

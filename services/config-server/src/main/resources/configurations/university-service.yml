@@ -1,0 +1,25 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+    compatibility-verifier:
+      enabled: false
+  datasource:
+    username: sa
+    password: password
+    url: jdbc:h2:file:./Database/Data/University;AUTO_SERVER=TRUE
+    driver-class-name: org.h2.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+  h2:
+    console:
+      enabled: true
+      path: /h2
+server:
+  port: 8087
+
+logging:
+  level:
+    root: INFO
+    tn.esprit.tpfoyer: DEBUG

@@ -1,0 +1,19 @@
+spring:
+  cloud:
+    config:
+      enabled: true
+    compatibility-verifier:
+      enabled: false
+  datasource:
+    url: jdbc:mysql://mysql:3306/etudiant_db?createDatabaseIfNotExist=true
+    username: univer
+    password: univer
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+server:
+  port: 8089
+  servlet:
+    context-path: /
+

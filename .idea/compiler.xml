@@ -2,21 +2,32 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="config-server" />
+        <module name="tp-foyer" />
+        <module name="tp-foyer (1)" />
+        <module name="Foyer" />
         <module name="discovery" />
+        <module name="tp-foyer (2)" />
+        <module name="university" />
         <module name="gateway" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="Foyer" options="-parameters" />
       <module name="config-server" options="-parameters" />
       <module name="discovery" options="-parameters" />
       <module name="gateway" options="-parameters" />
+      <module name="tp-foyer" options="-parameters" />
+      <module name="tp-foyer (1)" options="-parameters" />
+      <module name="tp-foyer (2)" options="-parameters" />
+      <module name="university" options="-parameters" />
     </option>
   </component>
 </project>
